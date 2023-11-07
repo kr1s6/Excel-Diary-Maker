@@ -1,5 +1,5 @@
 # Excel-Diary-Maker
-Program in Python which make excel diary from your notes and update them in new ones.<br>
+Program in Python which make excel diary from your notes and update them with new ones by adding them at the end.<br>
 Notes have format: <br>
   - "Day" Date Title<br>
   - (body)<br>
