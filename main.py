@@ -76,5 +76,5 @@ if __name__ == '__main__':
             print("Can't modify Excel file while is open!")
             break
         except FileNotFoundError:
-            print("No such file or directory: 'notes_file_path'")
+            print(f"No such file or directory: '{notes_file_path}'")
             notes_file_path = input("Type path to your notes (like '../Journey.txt'):")
