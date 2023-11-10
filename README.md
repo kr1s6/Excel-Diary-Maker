@@ -8,4 +8,4 @@ Notes have format: <br>
   
 Program use openpyxl from Python
 
-<img src="Screenshots/Screenshot_1.png" width="50%"/>
+<img src="Screenshots/Screenshot_1.png" width="80%"/>
