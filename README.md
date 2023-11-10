@@ -7,3 +7,5 @@ Notes have format: <br>
   - (body)<br>
   
 Program use openpyxl from Python
+
+<img src="Screenshots/Screenshot_1.png" width="50%"/>
