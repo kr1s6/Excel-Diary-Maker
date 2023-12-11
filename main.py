@@ -1,80 +1,71 @@
-import openpyxl.utils.exceptions
-from openpyxl import Workbook, load_workbook
-from datetime import datetime
-from style import *
+from tkinter import *
+from tkinter import filedialog
+from excel_maker import *
 
+Y = 120
 
 SHEET_NAME = "Journey"
 
-def make_headlines(work_sheet):
-    work_sheet["B2"] = "Date"
-    work_sheet["C2"] = "Title"
-    work_sheet["D2"] = "Journal"
-    work_sheet.row_dimensions[2].height = 20
-    work_sheet.column_dimensions['B'].width = 12
-    work_sheet.column_dimensions['C'].width = 25
-    work_sheet.column_dimensions['D'].width = 40
+def browse_excel_file():
+    filename = filedialog.askopenfilename(initialdir="/Desktop",
+                                          title="Select an Excel file",
+                                          filetypes=(("Excel files", "*.xlsx*"),
+                                                     ("All files", "*.*")))
+    excel_name.delete(0, END)
+    excel_name.insert(0, filename)
+
+
+def browse_notes_file():
+    filename = filedialog.askopenfilename(initialdir="/Desktop",
+                                          title="Select an txt file",
+                                          filetypes=(("Text files", "*.txt*"),
+                                                     ("All files", "*.*")))
+    notes_name.delete(0, END)
+    notes_name.insert(0, filename)
+
+
+def update_create_diary(excel, notes):
+    excel_maker(excel, notes)
 
 
 if __name__ == '__main__':
-    print("Program currently only work when notes have format:\n"
-          "'Day' Date Title\n"
-          "(body)\n"
-          "'Day' Date Title\n"
-          "(body)\n")
+    app = Tk()
+    app.title("Excel Diary Maker")
+    app.geometry('600x400')
+    app.configure(background="white")
+    text = Text(app, height=6, background='ghostwhite')
+    text.insert(INSERT, "Program only works when notes are separated by 'Day (data) (title)'\n"
+                        "Day 27.10.2023 Friend's birthday party\n"
+                        "(body)\n"
+                        "Day 28.10.2023 Campfire with friends\n"
+                        "(body)")
+    text.grid(column=0, row=0)
 
-    excel_name = input("Type name or path of the Excel you want to open or create (maybe '../Journal.xlsx'): ")
-    while True:
-        try:
-            wb = load_workbook(filename=excel_name)
-            try:
-                ws = wb[SHEET_NAME]
-            except KeyError:
-                wb.create_sheet(SHEET_NAME)
-                ws = wb[SHEET_NAME]
-                make_headlines(ws)
-            break
-        except openpyxl.utils.exceptions.InvalidFileException:
-            print("Adding .xlsx at the end")
-            excel_name = excel_name + ".xlsx"
-        except FileNotFoundError:
-            print("Creating new .xlsx file")
-            wb = Workbook()
-            ws = wb.active
-            ws.title = SHEET_NAME
-            make_headlines(ws)
-            ws = wb[SHEET_NAME]
-            break
+    # ------------------------Excel file----------------------------------------
+    excel_label = Label(app, text="Path/name to the Excel you want to update/create:",
+                        justify="left", background="white")
+    excel_label.place(x=10, y=Y)
 
-    # Opening text file
-    new_rows_amount = 0
-    journal_date, journal_title, journal_body = "", "", ""
-    notes_file_path = input("Type path to your notes (like '../Journey.txt'):")
+    excel_name = Entry(app, width=50, background="ghostwhite")
+    excel_name.insert(0, "Journey.xlsx")
+    excel_name.place(x=15, y=Y + 30)
+    button_excel = (Button(app, text="Browse File", command=browse_excel_file)
+                    .place(x=320, y=Y + 26))
 
-    while True:
-        try:
-            file = open(notes_file_path, "r", encoding="utf-8")
-            for line in file:
-                if line.lower().startswith("day"):
-                    if journal_body != "":
-                        journal_body = journal_body.strip("\n")
-                        data = [None, journal_date, journal_title, journal_body]
-                        ws.append(data)
-                        new_rows_amount += 1
-                        journal_body = ""
-                    line = line.removeprefix("Day").strip(" ")
-                    journal_date = datetime.strptime(line[0:10], '%d.%m.%Y').date()
-                    journal_title = line[11:len(line)]
-                else:
-                    journal_body += line
+    # ------------------------------Notes file------------------------------------
+    notes_label = Label(app, text="Type path to your notes (like '../Journey.txt'):",
+                        justify="left", background="white")
+    notes_label.place(x=10, y=Y + 80)
 
-            style(new_rows_amount, ws, wb)
-            file.close()
-            wb.save(excel_name)
-            break
-        except PermissionError:
-            print("Can't modify Excel file while is open!")
-            break
-        except FileNotFoundError:
-            print(f"No such file or directory: '{notes_file_path}'")
-            notes_file_path = input("Type path to your notes (like '../Journey.txt'):")
+    notes_name = Entry(app, width=50, background="ghostwhite")
+    notes_name.insert(0, "October_diary.txt")
+    notes_name.place(x=15, y=Y + 110)
+    button_notes = (Button(app, text="Browse File", command=browse_notes_file)
+                    .place(x=320, y=Y + 106))
+
+    # -------------------------------Final button-----------------------------------
+    button_execute = Button(app, text="Update/Create your Diary",
+                            command=lambda: update_create_diary(excel_name.get(), notes_name.get()))
+    button_execute.place(x=430, y=Y + 230)
+    # ------------------------------------------------------------------------------
+    app.mainloop()
