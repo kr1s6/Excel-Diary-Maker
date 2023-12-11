@@ -10,4 +10,5 @@ Notes have format:
   
 Program use openpyxl from Python
 
+<img src="Screenshots/Screenshot_2.png" width="60%"/>
 <img src="Screenshots/Screenshot_1.png" width="80%"/>
