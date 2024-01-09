@@ -1,4 +1,5 @@
 # Excel-Diary-Maker
+<h3>To use app just download file Excel-Diary_Maker.exe</h3>
 Program in Python which make excel diary from your notes<br>
 and update them with new ones by adding them at the end.<br>
 
