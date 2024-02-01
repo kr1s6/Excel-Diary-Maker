@@ -1,3 +1,4 @@
+
 from tkinter import *
 from tkinter import filedialog
 from excel_maker import *
@@ -52,7 +53,7 @@ if __name__ == '__main__':
                     .place(x=320, y=Y + 26))
 
     # ------------------------------Notes file------------------------------------
-    notes_label = Label(app, text="Type path to your notes (like '../Journey.txt'):",
+    notes_label = Label(app, text="Browse path to your notes (like '../Journey.txt'):",
                         justify="left", background="white")
     notes_label.place(x=10, y=Y + 80)
 
@@ -67,4 +68,8 @@ if __name__ == '__main__':
                             command=lambda: update_create_diary(excel_name.get(), notes_name.get()))
     button_execute.place(x=430, y=Y + 230)
     # ------------------------------------------------------------------------------
+    notes_label = Label(app, text="App 02.02.2024 Krzysztof B.",
+                        justify="left", background="white")
+    notes_label.place(x=10, y=Y + 260)
+
     app.mainloop()
