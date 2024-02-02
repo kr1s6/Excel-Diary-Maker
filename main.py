@@ -1,9 +1,10 @@
-
 from tkinter import *
 from tkinter import filedialog
 from excel_maker import *
 
 Y = 120
+
+SHEET_NAME = "Journey"
 
 
 def browse_excel_file():

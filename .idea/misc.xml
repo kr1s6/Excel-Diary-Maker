@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+<<<<<<< HEAD
     <option name="sdkName" value="Python 3.10 (Excel_Diary_Maker)" />
+=======
+    <option name="sdkName" value="Python 3.10 (excel_journal)" />
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />
 </project>

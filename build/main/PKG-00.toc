@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ('C:\\Users\\okr65\\Desktop\\Python\\Excel_Diary_Maker\\build\\main\\main.pkg',
+=======
+('C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\main.pkg',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
@@ -10,6 +14,7 @@
   'SYMLINK': False},
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
+<<<<<<< HEAD
    'C:\\Users\\okr65\\Desktop\\Python\\Excel_Diary_Maker\\build\\main\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
@@ -26,6 +31,24 @@
    'PYMODULE'),
   ('pyimod04_pywin32',
    'C:\\Users\\okr65\\Desktop\\Python\\Excel_Diary_Maker\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
+=======
+   'C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
@@ -33,12 +56,16 @@
   ('pyi_rth_inspect',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
+<<<<<<< HEAD
   ('pyi_rth__tkinter',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
   ('main',
    'C:\\Users\\okr65\\Desktop\\Python\\Excel_Diary_Maker\\main.py',
    'PYSOURCE'),
+=======
+  ('main', 'C:\\Users\\okr65\\Desktop\\excel_journal\\main.py', 'PYSOURCE'),
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
   ('python310.dll',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\python310.dll',
    'BINARY'),
@@ -72,18 +99,40 @@
   ('_ssl.pyd',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_ssl.pyd',
    'EXTENSION'),
+<<<<<<< HEAD
   ('_tkinter.pyd',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_tkinter.pyd',
    'EXTENSION'),
   ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+=======
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
    'BINARY'),
   ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-20\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+=======
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
    'BINARY'),
   ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
@@ -91,12 +140,18 @@
   ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+=======
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\VCRUNTIME140.dll',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
    'BINARY'),
   ('api-ms-win-crt-stdio-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
@@ -114,6 +169,13 @@
    'BINARY'),
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+=======
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
    'BINARY'),
   ('libcrypto-1_1.dll',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\libcrypto-1_1.dll',
@@ -124,6 +186,7 @@
   ('libssl-1_1.dll',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\libssl-1_1.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('tcl86t.dll',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\tcl86t.dll',
    'BINARY'),
@@ -190,29 +253,60 @@
    'C:\\Program '
    'Files\\Java\\jdk-20\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
    'BINARY'),
+=======
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program '
    'Files\\Java\\jdk-20\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program '
    'Files\\Java\\jdk-20\\bin\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-util-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-util-l1-1-0.dll',
+=======
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-20\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-20\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
    'BINARY'),
   ('api-ms-win-core-sysinfo-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+=======
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-20\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-string-l1-1-0.dll',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
    'BINARY'),
   ('api-ms-win-core-datetime-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
+<<<<<<< HEAD
   ('api-ms-win-core-memory-l1-1-0.dll',
    'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-memory-l1-1-0.dll',
    'BINARY'),
@@ -2984,6 +3078,62 @@
    'DATA'),
   ('tcl\\tzdata\\Indian\\Christmas',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\tcl\\tcl8.6\\tzdata\\Indian\\Christmas',
+=======
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-20\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-20\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-20\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-20\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-20\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\base_library.zip',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
    'DATA')],
  'python310.dll',
  False,
