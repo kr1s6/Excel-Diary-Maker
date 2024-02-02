@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+('C:\\Users\\okr65\\Desktop\\Python\\Excel_Diary_Maker\\build\\main\\PYZ-00.pyz',
+=======
 ('C:\\Users\\okr65\\Desktop\\excel_journal\\build\\main\\PYZ-00.pyz',
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
  [('__future__',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\__future__.py',
    'PYMODULE'),
@@ -128,6 +132,12 @@
   ('et_xmlfile.xmlfile',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\et_xmlfile\\xmlfile.py',
    'PYMODULE'),
+<<<<<<< HEAD
+  ('excel_maker',
+   'C:\\Users\\okr65\\Desktop\\Python\\Excel_Diary_Maker\\excel_maker.py',
+   'PYMODULE'),
+=======
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
   ('fnmatch',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\fnmatch.py',
    'PYMODULE'),
@@ -803,7 +813,13 @@
   ('stringprep',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
    'PYMODULE'),
+<<<<<<< HEAD
+  ('style',
+   'C:\\Users\\okr65\\Desktop\\Python\\Excel_Diary_Maker\\style.py',
+   'PYMODULE'),
+=======
   ('style', 'C:\\Users\\okr65\\Desktop\\excel_journal\\style.py', 'PYMODULE'),
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
   ('subprocess',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\subprocess.py',
    'PYMODULE'),
@@ -819,6 +835,30 @@
   ('threading',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\threading.py',
    'PYMODULE'),
+<<<<<<< HEAD
+  ('tkinter',
+   'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.dialog',
+   'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\dialog.py',
+   'PYMODULE'),
+  ('tkinter.filedialog',
+   'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\filedialog.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.simpledialog',
+   'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\simpledialog.py',
+   'PYMODULE'),
+=======
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
   ('token',
    'C:\\Users\\okr65\\AppData\\Local\\Programs\\Python\\Python310\\lib\\token.py',
    'PYMODULE'),

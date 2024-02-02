@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/Excel_Diary_Maker.iml" filepath="$PROJECT_DIR$/.idea/Excel_Diary_Maker.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/excel_journal.iml" filepath="$PROJECT_DIR$/.idea/excel_journal.iml" />
+>>>>>>> 6e7a04a823db6ad5d7338787cd7b4d28c4e0429d
     </modules>
   </component>
 </project>

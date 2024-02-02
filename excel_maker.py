@@ -39,20 +39,28 @@ def excel_maker(excel_name, notes_file_path):
             ws = wb[SHEET_NAME]
             break
 
-    # Opening text file
+    #---------Counting lines to save last day-----
+    file = open(notes_file_path, "r", encoding="utf-8")
+    max_line_count = sum(1 for line in file)
+    line_count = 0
+    file.close()
+    # ------------Opening text file
     new_rows_amount = 0
     journal_date, journal_title, journal_body = "", "", ""
     while True:
         try:
             file = open(notes_file_path, "r", encoding="utf-8")
             for line in file:
-                if line.lower().startswith("day"):
+                line_count += 1
+                if line.lower().startswith("day") or line_count == max_line_count:
                     if journal_body != "":
                         journal_body = journal_body.strip("\n")
                         data = [None, journal_date, journal_title, journal_body]
                         ws.append(data)
                         new_rows_amount += 1
                         journal_body = ""
+                    if line_count == max_line_count:
+                        break
                     line = line.removeprefix("Day").strip(" ")
                     journal_date = datetime.strptime(line[0:10], '%d.%m.%Y').date()
                     journal_title = line[11:len(line)]
@@ -68,4 +76,5 @@ def excel_maker(excel_name, notes_file_path):
             break
         except FileNotFoundError:
             print(f"No such file or directory: '{notes_file_path}'")
-            notes_file_path = input("Type path to your notes (like '../Journey.txt'):")
+            # notes_file_path = input("Type path to your notes (like '../Journey.txt'):")
+    print("END")
